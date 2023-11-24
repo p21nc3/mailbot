@@ -1,0 +1,19 @@
+{
+    "name": "mailbot",
+    "version": "1.0.0",
+    "description": "Hiring challenge to build an auto reply bot for my mailbox using nodejs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "keywords": [
+        "openinapp"
+    ],
+    "author": "Prince Bhardwaj",
+    "license": "MIT",
+    "dependencies": {
+        "googleapis": "^105.0.0",
+        "nodemon": "^2.0.22"
+    }
+}
