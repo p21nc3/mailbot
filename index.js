@@ -91,7 +91,7 @@
   }
   // createReplyRaw function to create a reply to the email
   async function createReplyRaw(from, to, subject) {
-    const emailContent = `From: ${from}\nTo: ${to}\nSubject: ${subject}\n\nHi, \n\nThanks for your mail. I am unavailable right now, but will respond as soon as possible...`;
+    const emailContent = `From: ${from}\nTo: ${to}\nSubject: ${subject}\n\nHi, \n\nThank you for your mail. I am unavailable right now, but will respond as soon as possible...`;
     const base64EncodedEmail = Buffer.from(emailContent)
       .toString("base64")
       .replace(/\+/g, "-")
